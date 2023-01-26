@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+    <html leg = "es">
+        <head>
+            <meta charset = "UTF-8">
+            <title> Contacto - Carpinteria Velz </title>
+            <link rel = "stylesheet" href = "reset.css">
+            <link rel = "stylesheet" href = "style.css">
+        </head>
+
+        <body>
+            <header>
+                    <div class="caja">
+                        <h1> <img src="imagenes/logo.png" alt = "Logo de la barberia"></h1>
+                            <nav>
+                                <ul>
+                                    <li><a href = "index.html">Home</a></li>
+                                    <li><a href = "Productos.html">Productos</a></li>
+                                    <li><a href = "contacto.html">Contactos</a></li>
+                                </ul>
+                            </nav>
+                    </div>
+            </header>
+                <main class="maincontac">
+                    <form>
+                        <label for = "nombreApellido">Nombre y Apellido</label>
+                        <input type= "text" id = "nombreApellido" class ="input-padron" required> 
+
+                        <label for = "correoElectronico">Correo Electronico</lavel>
+                        <input type= "email" id = "correoElectronico" class ="input-padron" required placeholder="email@dominio.com">
+                        
+                        <label for = "telefono">Telefono</label>
+                        <input type= "tel" id = "telefono" class ="input-padron" required placeholder="(XX)(XXX-XXX-XXX)">
+
+                        <label for = "mensaje"> Mensaje</label>
+                        <textarea cols = "70" rows="10" id = "mensaje"> </textarea required>
+                        
+                        <fieldset>
+                            <legend> ¿Cómo le gustaria que nos contactemos?</legend>
+                        
+                            <label for="radio-Email"><input type="radio" name = "contacto" value = "Email" id="radio-Email">Email</label>
+                            
+                            <label for="radio-telefono"><input type="radio" name = "contacto" value = "telefono" id="radio-telefono">Telefono</label>
+                            
+                            <label for="radio-whatsapp"><input type="radio" name = "contacto" value = "Whatsapp" id="radio-whatsapp" checked>Whatsapp</label>
+
+                        </fieldset>
+                        <fieldset>
+                            <legend>¿En cual horario prefiere ser atendido</legend>
+                            <select>
+                                <option> Mañana </option>
+                                <option> Tarde </option>
+                                <option> Noche </option>
+                            </select>
+
+                            <label class ="checkbox"><input type="checkbox" checked>¿Le gustaria recibir novedades de la barberia Alura?</label>
+
+                            <input type="submit" value= "Enviar formulario" class="enviar">
+                        </fieldset>
+                    </form>
+                <table>
+                    <thead>
+                         <tr>
+                               <th>Dia</th>
+                               <th>Horario</th>
+                         </tr>
+                    </thead>
+                    <tbody>
+                            <tr>
+                             <td>Lunes</td>
+                              <td>8.am - 20.pm</td>
+                          </tr>
+                         <tr>
+                             <td>Miercoles</td>
+                             <td>8.am - 20.pm</td>
+                         </tr>
+                         <tr>
+                             <td>Viernes</td>
+                             <td>8.am - 20.pm</td>
+                         </tr>
+                    </tbody>
+                </table>
+                </main>
+                <footer>
+                    <img src="imagenes/logo-blanco.png" alt = "Logo de la barberia">
+                    <p class="copy">&copy Copyright Carpinteria Velz - 2020</p>
+                </footer>
+
+        </body>
+
+    </html>
+
+</DOCTYPE>

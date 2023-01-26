@@ -1,0 +1,92 @@
+header{
+    background-color: lightgrey;
+    padding: 20px 0;
+}
+
+.caja{
+    position: relative;
+    width: 1200px;
+    margin:0 auto;
+}
+
+nav{
+    position: absolute;
+    right: 5px;
+    top: 110px;
+}
+
+nav li {
+    display: inline;
+    margin : 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color : rgb(1, 111, 154);
+    text-decoration: underline;
+}
+
+body{
+    background: lightgoldenrodyellow;
+    padding: 20px;
+}
+
+#carpinteria {
+    width: 98%;
+    padding-left: 30px;
+}
+
+.TituloCentralizado{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+    margin: 40px;
+}
+
+#mision{
+    font-size: 20px;
+    margin: 40px;
+}
+
+em strong {
+    color: brown;
+
+}
+
+
+.diferencial{
+    background: white;
+    margin: 40px;
+    padding: 20px;
+    
+}
+
+.Items{
+    font-style: italic;
+}
+
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgd{
+    width: 50%;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg) ;
+    padding: 40px; 
+}
